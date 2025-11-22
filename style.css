@@ -279,7 +279,6 @@ body {
     color: #1a1a1a;
     font-size: 14px;
 }
-
 #products .pro .des i,
 #top-courses .pro .des i{
     font-size: 12px;
@@ -292,6 +291,7 @@ body {
     font-weight: 700;
     color: #088178;
 }
+
 
 #products .pro .Cart,
 #top-courses .pro .Cart{
@@ -350,7 +350,7 @@ footer {
   
     background: #f8f9ff;
     border-top: 1px solid #e0e3f0;
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

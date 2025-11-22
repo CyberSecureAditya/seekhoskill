@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Books</title>
+
+    <link rel="stylesheet" href="style.css">   <!-- Navbar + footer CSS -->
+    <link rel="stylesheet" href="course.css">  <!-- Same CSS reuse -->
+</head>
+<body>
+
+    <!-- start navbar  -->
+    <section id="header">
+        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a class="active" href="ebooks.html">E-books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="auth.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">   
+            <a href="auth.html"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    <!-- end navbar -->
+
+    <!-- E-Book Layout -->
+    <div class="course-page">
+
+        <!-- LEFT FILTERS -->
+        <aside class="sidebar">
+            <h2>E-book Categories</h2>
+            <ul>
+                <li class="active" data-filter="all">All E-books</li>
+                <li data-filter="development">Development</li>
+                <li data-filter="design">Design</li>
+                <li data-filter="python">Python</li>
+                <li data-filter="business">Business</li>
+                <li data-filter="free">Free</li>
+                <li data-filter="paid">Paid</li>
+            </ul>
+        </aside>
+
+        <!-- RIGHT E-BOOK CARDS -->
+        <main class="courses">
+
+            <div class="course-card development free">
+                <img src="images/ebook1.jpg">
+                <h3>HTML & CSS Beginner Guide</h3>
+                <p>Easy notes to learn HTML & CSS.</p>
+                <p class="price">Free</p>
+                <a href="pdf/html-css.pdf" class="buy_now">Read Now</a>
+            </div>
+            <div class="course-card development free">
+                <img src="images/ebook1.jpg">
+                <h3>HTML & CSS Beginner Guide</h3>
+                <p>Easy notes to learn HTML & CSS.</p>
+                <p class="price">Free</p>
+                <a href="pdf/html-css.pdf" class="buy_now">Read Now</a>
+            </div>
+            <div class="course-card development free">
+                <img src="images/ebook1.jpg">
+                <h3>HTML & CSS Beginner Guide</h3>
+                <p>Easy notes to learn HTML & CSS.</p>
+                <p class="price">Free</p>
+                <a href="pdf/html-css.pdf" class="buy_now">Read Now</a>
+            </div>
+
+            <div class="course-card python paid">
+                <img src="images/ebook2.jpg">
+                <h3>Python Tricks E-book</h3>
+                <p>Learn Python with simple tips.</p>
+                <p class="price">₹199</p>
+                <a href="pdf/python-tricks.pdf" class="buy_now">Buy E-book</a>
+            </div>
+
+            <div class="course-card business free">
+                <img src="images/ebook3.jpg">
+                <h3>Start-up Business Notes</h3>
+                <p>Beginner business mindset.</p>
+                <p class="price">Free</p>
+                <a href="pdf/startup.pdf" class="buy_now">Download</a>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="course.js"></script>
+</body>
+</html>
