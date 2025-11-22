@@ -6,8 +6,8 @@
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 60px;
+    line-height: 50px;
     color: #222;
 }
 
@@ -28,7 +28,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 22px;
     margin: 15px 0 20px 0;
     color: #6a6d6c;
 }
@@ -128,9 +128,9 @@ body {
 /* Home page */
 
 #hero {
-    background-image: url("images/hero_sections.png");
+    background-image: url("images/demo_2.png");
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     background-size: cover;
     background-position: top 25% right 0px;
     padding: 0 80px;
@@ -139,20 +139,20 @@ body {
     align-items: flex-start;
     justify-content: center;
 }
+
 #hero h4 {
     padding-bottom: 2px;
 }
 
 #hero h1 {
-    color:#088178;
+    color:#2f2d52;
 }
 
-#hero h2 {
-    color:#2d706c;
+#hero p {
+    margin-top: 15px;
 }
-
 #hero button {
-    margin-top: 30px;
+    margin-top: 40px;
     background:#3e6fe6;
     color: white;
     border:0;
@@ -410,7 +410,7 @@ footer a:hover {
 
     h1 {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 20px;
     }
 
     h2 {
@@ -419,10 +419,12 @@ footer a:hover {
     }
     h4{
         font-size: 14px;
+        line-height: 25px;
     }
 
     p {
     font-size: 8px;
+    margin: 15px 0 10px 0;
     }
 
     .section-p1{
@@ -432,11 +434,16 @@ footer a:hover {
     #header {
     padding: 12px;
     }
+    .logo {
+    width: 180px;
+    height: 45px;
+    }
 
     #hero {
-    height: 30vh;
+    background-image: url(images/demo_2.png);
+    height: 25vh;
     padding: 0 12px;
-    background-position: center;
+    background-size: cover;
     margin-right: 10px;
     }
     #hero button {
@@ -448,9 +455,9 @@ footer a:hover {
     border-radius: 5px;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 14px;
-}
+    }
 
     #navbar {
     display: flex;
