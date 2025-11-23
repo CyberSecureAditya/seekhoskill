@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Courses</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="course.css" />
+    <link rel="stylesheet" href="../css/course.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
 
     <!-- start navbar  -->
     <section id="header">
-        <a href="#"><img src="images/logo.png" class="logo" alt=""></a>
+        <a href="../index.html"><img src="../images/logo.png" class="logo" alt=""></a>
 
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li><a class="active" href="course.html">Course</a></li>
-                <li><a href="ebooks.html">E-books</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bag"><a href="auth.html"><i class="fa-solid fa-circle-user"></i></a></li>
@@ -33,6 +32,31 @@
         </div>
     </section>
     <!-- end navbar -->
+    <!-- end navbar -->
+
+    <!-- MOBILE SEARCH + FILTER BAR -->
+    <div class="course-toolbar">
+        <div class="toolbar-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+                type="text"
+                id="course-search"
+                placeholder="Search courses..."
+            />
+        </div>
+
+        <div class="toolbar-filter">
+            <i class="fa-solid fa-filter"></i>
+            <select id="course-filter">
+                <option value="all">All</option>
+                <option value="development">Development</option>
+                <option value="design">Design</option>
+                <option value="marketing">Marketing</option>
+                <option value="business">Business</option>
+                <option value="python">Python</option>
+            </select>
+        </div>
+    </div>
 
 <div class="course-page">
 
@@ -53,9 +77,10 @@
     <main class="courses">
         <!-- Course 1 -->
         <div class="course-card development">
-            <img src="images/web development.png">
-            <h3>Web Development Bootcamp</h3>
-            <p>Learn HTML, CSS, JS and build real projects.</p>
+            <a href="course-detail.html?id=1">
+            <img src="../images/python_for_beginner.png"> 
+            <h3>Python for Beginners</h3>
+            <p>Learn Python from scratch and build real-world projects.</p></a>
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -70,9 +95,10 @@
 
         <!-- Course 2 -->
         <div class="course-card python">
-            <img src="images/course2.jpg">
-            <h3>Python Programming</h3>
-            <p>Beginner to advance python course.</p>
+            <a href="course-detail.html?id=2">
+            <img src="../images/fullstack_course.png">
+            <h3>Fullstack Web Development</h3>
+            <p>HTML, CSS, JavaScript, and backend to become a fullstack dev.</p></a>
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -86,9 +112,10 @@
 
         <!-- Course 3 -->
         <div class="course-card design">
-            <img src="images/course3.jpg">
-            <h3>Graphic Designing</h3>
-            <p>Learn Photoshop, Illustrator & UI design.</p>
+            <a href="course-detail.html?id=3">
+            <img src="../images/into_to_ai_agents.png">
+            <h3>Intro to AI Agents and Agentic AI</h3>
+            <p>Understand how AI agents work and how to use them in business.</p></a>
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -102,7 +129,8 @@
 
         <!-- Course 4 -->
         <div class="course-card marketing">
-            <img src="images/course4.jpg">
+            <a href="course-detail.html?id=4">
+            <img src="../images/digital_course.png"></a>
             <h3>Digital Marketing Masterclass</h3>
             <p>SEO, Ads, Branding, Social media.</p>
             <div class="star">
@@ -118,9 +146,9 @@
 
         <!-- Course 5 -->
         <div class="course-card business">
-            <img src="images/course5.jpg">
-            <h3>Entrepreneurship Basics</h3>
-            <p>Learn business mindset & startup skills.</p>
+            <img src="../images/html_course.jpg">
+            <h3>Zero to Hero HTML Course</h3>
+            <p>Learn HTML Beginner to Advanced Level.</p>
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -144,9 +172,11 @@
     <a href="#" class="next">Next »</a>
 </div>
  <!-- end pagination button -->
+
+ 
       <!-- Footer -->
         <footer class="section-p1">
-            <img class="logo" src="images/logo.png" alt="SeekhoSkill">
+            <img class="logo" src="../images/logo.png" alt="SeekhoSkill">
             <div class="col">
                 <h4>Contact</h4>
                 <p>Address: 392A Bus Stop Road, Miyanpur Jaunpur</p>
@@ -180,7 +210,8 @@
             
         </footer>
        <!-- End Footer -->
-<script src="course.js"></script>
+<script src="../js/course.js"></script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,168 @@
+<!-- course-detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Detail</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css"> <!-- apna main CSS -->
+  <link rel="stylesheet" href="../css/course-detail.css">
+</head>
+<body>
+
+    <!-- start navbar  -->
+    <section id="header">
+        <a href="../index.html"><img src="../images/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="../index.html">Home</a></li>
+                <li><a class="active" href="../html/course.html">Course</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="auth.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></i></a>
+            </ul>
+        </div>
+        <div id="mobile">   
+            <a href="auth.html"><i class="fa-solid fa-circle-user"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    <!-- end navbar -->
+
+  <section class="course-detail-page">
+    <!-- LEFT: main info -->
+    <div class="course-main">
+      <h1 class="course-title" id="courseTitle"></h1>
+      <p class="course-subtitle" id="courseSubtitle"></p>
+
+      <div class="course-meta" id="courseMeta"></div>
+
+      <div class="what-you-will-learn">
+        <h2>What you'll learn</h2>
+        <ul id="courseLearnList">
+          <!-- JS se list add honge -->
+        </ul>
+      </div>
+    <section class="course-content">
+        <h2>Course content</h2>
+        <p class="subtitle">1 sections • 5 lectures • 2h 10m total length</p>
+
+        <div class="accordion">
+
+        <!-- SECTION 1 -->
+        <div class="accordion-item">
+            <button class="accordion-header">
+                <span>Understanding AI agents</span>
+                <small>1 lectures • 2:10:00 min</small>
+            </button>
+
+            <div class="accordion-body">
+                <ul>
+                    <li>
+                        <span class="lecture-title">What does the course cover</span>
+                        <a href="#" class="preview">Preview</a>
+                        <span class="time">35:00</span>
+                    </li>
+
+                    <li>
+                        <span class="lecture-title">What is an AI agent?</span>
+                        <a href="#" class="preview">Preview</a>
+                        <span class="time">1:25:06</span>
+                    </li>
+
+                    <li>
+                        <span class="lecture-title">Why AI agents are believed to be the next big thing?</span>
+                        <a href="#" class="preview">Preview</a>
+                        <span class="time">2:05:05</span>
+                    </li>
+                    <li>
+                        <span class="lecture-title">Quiz</span>
+                        <span class="quiz">1 question</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- COPY KARKE OR SECTIONS ADD karege -->       
+    </div>
+</section>
+    </div>
+
+    <!-- RIGHT: price box -->
+    <aside class="course-sidebar">
+      <div class="course-sidebar-box">
+        <video id="coursePreview" controls style="width:100%; border-radius: 8px; margin-bottom: 15px;">
+          <source id="coursePreviewSource" src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <div>
+          <span class="price" id="coursePrice">₹0</span>
+          <span class="old-price" id="courseOldPrice"></span>
+        </div>
+        <p id="courseDiscountText" style="font-size:14px; margin-bottom:10px;"></p>
+
+        <button class="btn-primary">Add to cart</button>
+        <button class="btn-outline">Buy now</button>
+
+        <p style="font-size:12px; margin-top:8px;">30-Day Money-Back Guarantee</p>
+
+        <div style="margin-top:15px; font-size:14px;">
+          <strong>This course includes:</strong>
+          <ul style="margin-top:8px;">
+            <li id="courseHours"></li>
+            <li>Access on mobile and TV</li>
+            <li>Certificate of completion</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+
+      <!-- Footer -->
+        <footer class="section-p1">
+            <img class="logo" src="../images/logo.png" alt="SeekhoSkill">
+            <div class="col">
+                <h4>Contact</h4>
+                <p>Address: 392A Bus Stop Road, Miyanpur Jaunpur</p>
+                <p>Phone: <a href="tel: +916306698413">+916306698413</a></p>
+                <p>Hours: 10:00 - 18:00, Mon - Sat</p>
+                
+            </div>
+
+            <div class="follow">
+                    <h4>Follows us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+
+            <div class="about">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Term &amp; Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="copyright">
+                <p>@ 2025, All Right Reserved SeekhoSkill</p>
+            </div>
+            
+        </footer>
+       <!-- End Footer -->
+
+  <script src="../js/course.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

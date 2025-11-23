@@ -1,0 +1,175 @@
+/* HERO SECTION */
+.contact-hero {
+    background-image: url('../images/cta-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.contact-hero h1 {
+    font-size: 40px;
+    color: #111;
+}
+
+.contact-hero p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #222;
+}
+
+/* CONTACT MAIN SECTION */
+.contact-section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+
+    display: grid;
+    grid-template-columns: 1.1fr 1.2fr;
+    gap: 30px;
+}
+
+/* LEFT SIDE - INFO */
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    margin-top: 15px;
+    display: grid;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 10px;
+    border-radius: 8px;
+    background: #f5f5f5;
+}
+
+.info-item i {
+    font-size: 22px;
+    margin-top: 4px;
+}
+
+.info-item h3 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #222;
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* RIGHT SIDE - FORM */
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contact-form form {
+    background: #fafafa;
+    padding: 18px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: 1 / 3;   /* 2 columns ko cover karega */
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.form-group label span {
+    color: red;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2a2a72;
+}
+
+/* BUTTON */
+.contact-btn {
+    padding: 10px 10px;
+    background-color:#7963e1;
+    color: #fafafa;
+    font-weight: 650;
+    border-radius: 6px;
+    grid-column: 1 / 3;
+    justify-self: flex-start;
+    margin-top: 5px;
+}
+
+/* already .btn class style.css / about.css me hai, yahan extra nahi chahiye */
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form form {
+        grid-template-columns: 1fr;
+    }
+
+    .form-group.full-width,
+    .contact-btn {
+        grid-column: 1 / 2;
+    }
+
+    .contact-hero h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-hero {
+        padding: 20px 10px;
+    }
+
+    .contact-section {
+        margin: 20px auto;
+    }
+
+    .contact-form form {
+        padding: 15px 10px;
+    }
+}
