@@ -89,6 +89,111 @@ buttons.forEach(btn => {
         ],
         hours: "2 hours on-demand video",
         previewVideo: ""
+      },
+      {
+        id: "4",
+        title: "HTML Course For Beginner",
+        subtitle: "Zero To Hero Learn HTML for Beginner Course.",
+        rating: "4.4",
+        ratingCount: "1,800 ratings",
+        students: "5,780 students",
+        lastUpdated: "12/2025",
+        language: "English [Auto]",
+        price: "₹299",
+        oldPrice: "₹1,509",
+        discountText: "90% off • 5 days left at this price!",
+        learn: [
+          "Understand AI agents and underlying technology",
+          "Learn how to build AI agents",
+          "Skyrocket productivity using AI agents",
+          "Build a solid foundation in AI concepts"
+        ],
+        hours: "2 hours on-demand video",
+        previewVideo: ""
+      },
+      {
+        id: "5",
+        title: "JavaScript Zero to Hero",
+        subtitle: "Understand how Js work and how to use them in intractive Ui.",
+        rating: "4.4",
+        ratingCount: "1,980 ratings",
+        students: "5,932 students",
+        lastUpdated: "11/2025",
+        language: "English [Auto]",
+        price: "₹399",
+        oldPrice: "₹1,709",
+        discountText: "90% off • 5 days left at this price!",
+        learn: [
+          "Understand JavaScript and underlying technology",
+          "Learn how to build Modern UI",
+          "Skyrocket productivity using Javascript",
+          "Build a solid foundation in JavaScript concepts"
+        ],
+        hours: "2 hours on-demand video",
+        previewVideo: ""
+      },
+      {
+        id: "6",
+        title: "Digital Marketing Zero to Hero",
+        subtitle: "Understand how Digital marketing work and how to use them in bussiness.",
+        rating: "4.4",
+        ratingCount: "1,980 ratings",
+        students: "5,932 students",
+        lastUpdated: "11/2025",
+        language: "English [Auto]",
+        price: "₹399",
+        oldPrice: "₹1,709",
+        discountText: "90% off • 5 days left at this price!",
+        learn: [
+          "Understand Digital marketing and underlying technology",
+          "Learn how to build Bussiness.",
+          "Skyrocket productivity using Digital marketing",
+          "Build a solid foundation in Digital marketing concepts"
+        ],
+        hours: "4 hours on-demand video",
+        previewVideo: ""
+      },
+      {
+        id: "7",
+        title: "Zero to Hero React Js",
+        subtitle: "Understand how React Js work and how to use them in intractive Ui.",
+        rating: "4.4",
+        ratingCount: "1,980 ratings",
+        students: "5,932 students",
+        lastUpdated: "11/2025",
+        language: "English [Auto]",
+        price: "₹799",
+        oldPrice: "₹1,709",
+        discountText: "60% off • 5 days left at this price!",
+        learn: [
+          "Understand React Js and underlying technology",
+          "Learn how to build Modern UI",
+          "Skyrocket productivity using React Js",
+          "Build a solid foundation in React Js concepts"
+        ],
+        hours: "7+ hours on-demand video",
+        previewVideo: ""
+      },
+      {
+        id: "8",
+        title: "UI/UX Design Zero to Hero",
+        subtitle: "Understand how UI/UX Design work and how to use them in intractive Ui.",
+        rating: "4.4",
+        ratingCount: "1,980 ratings",
+        students: "5,932 students",
+        lastUpdated: "11/2025",
+        language: "English [Auto]",
+        price: "₹399",
+        oldPrice: "₹1,709",
+        discountText: "90% off • 5 days left at this price!",
+        learn: [
+          "Understand UI/UX Design and underlying technology",
+          "Learn how to build Modern UI",
+          "Skyrocket productivity using UI/UX Design",
+          "Build a solid foundation in UI/UX Design concepts"
+        ],
+        hours: "5+ hours on-demand video",
+        previewVideo: ""
       }
     ];
 

@@ -263,6 +263,13 @@ body {
     object-fit: cover;
     border-radius: 20px;
 }
+
+#products .pro a,
+#top-courses .pro a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 #products .pro .des,
 #top-courses .pro .des{
     text-align: start;
